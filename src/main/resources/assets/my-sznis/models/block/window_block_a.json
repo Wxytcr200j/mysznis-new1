@@ -1,0 +1,52 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "my-sznis:block/window_block_a",
+        "1": "my-sznis:block/window_block_a",
+
+      "particle": "my-sznis:block/window_block_a"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [1, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 8]},
+			"faces": {
+				"north": {"uv": [4.25, 4, 4.5, 8], "texture": "#0"},
+				"east": {"uv": [0.25, 4, 4.25, 8], "texture": "#0"},
+				"south": {"uv": [8.5, 4, 8.75, 8], "texture": "#0"},
+				"west": {"uv": [4.5, 4, 8.5, 8], "texture": "#0"},
+				"up": {"uv": [4.5, 4, 4.25, 0], "texture": "#0"},
+				"down": {"uv": [4.75, 0, 4.5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [15, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 0, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 4.25, 8], "texture": "#0"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"south": {"uv": [8.25, 4, 8.5, 8], "texture": "#0"},
+				"west": {"uv": [4.25, 4, 8.25, 8], "texture": "#0"},
+				"up": {"uv": [4.25, 4, 4, 0], "texture": "#0"},
+				"down": {"uv": [4.5, 0, 4.25, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 0, 14],
+			"to": [15, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 15]},
+			"faces": {
+				"north": {"uv": [4.25, 9.75, 7.75, 13.75], "texture": "#0"},
+				"east": {"uv": [3.75, 9.75, 4.25, 13.75], "texture": "#0"},
+				"south": {"uv": [8.25, 9.75, 11.75, 13.75], "texture": "#0"},
+				"west": {"uv": [7.75, 9.75, 8.25, 13.75], "texture": "#0"},
+				"up": {"uv": [7.75, 9.75, 4.25, 9.25], "texture": "#0"},
+				"down": {"uv": [11.25, 9.25, 7.75, 9.75], "texture": "#0"}
+			}
+		}
+	]
+}
